@@ -24,6 +24,7 @@ TBA - working on adding more artists.
 Currently, I am able to differentiate between Ed Sheeran and Kendrick Lamar Lyrics with **~80% accuracy** and an **~83% F1 score**.
 
 ### TODO
+Separate Train and Test sets by song
 Adding more artists  
 Adding the ability to scrape songs with features (ignoring lyrics sang by the feature artist)
 Adding a web interface that can output an artist name for a given user input 
