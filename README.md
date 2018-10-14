@@ -4,7 +4,7 @@
 I wanted to see how well I could predict an artist name from a given song lyric.
 
 ## Metrics for Success
-My goal is to train this model with 5-10 artists and be  with an F1 score of at least 80%. 
+My goal is to train this model with 5 artists and be able to predict the right artist from a given song lyric with an F1 score of at least 80%. 
 
 ## Data
 All of my train and test data is scraped from Genius.com using songs from each artist.
@@ -24,7 +24,5 @@ TBA - working on adding more artists.
 Currently, I am able to differentiate between Ed Sheeran and Kendrick Lamar Lyrics with **~80% accuracy** and an **~83% F1 score**.
 
 ### TODO
-Separate Train and Test sets by song
-Adding more artists  
+Add more artists  
 Adding the ability to scrape songs with features (ignoring lyrics sang by the feature artist)
-Adding a web interface that can output an artist name for a given user input 
