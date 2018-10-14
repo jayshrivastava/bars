@@ -11,15 +11,15 @@ All of my train and test data is scraped from Genius.com using songs from each a
 
 ## Language Processing 
 
-The method of language processing I decided to use is **vectorizing words based on occurance/frequency** which is also 
-used in the classical machine learning problem of spam email classification. 
+The method of language processing I decided to use is **vectorizing words based on occurance** which is also 
+used in the classical machine learning problem of spam email classification. Note that I did not base it on relative frequency because each lyric is approximately the same length.
 
 ## Classifier 
 
 I decided to use the **Naive Bayes Classifer** which is also clasically used for spam email classification. This classifier compares the
 probability of each feature belonging to a certain target and selects the most likely target for a particular feature vector. 
 
-## Current Accuracy 
+## Accuracy 
 TBA - working on adding more artists. 
 Currently, I am able to differentiate between Ed Sheeran and Kendrick Lamar Lyrics with **~80% accuracy** and an **~83% F1 score**.
 
