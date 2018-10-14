@@ -1,7 +1,7 @@
 # :musical_note: bars 
 
-## Goal
-I wanted to see how well I could predict an artist name from a given song lyric.
+## Basically,
+I want to see how well I can predict an artist name from a given song lyric.
 
 ## Metrics for Success
 My goal is to train this model with 5 artists and be able to predict the right artist from a given song lyric with an F1 score of at least 80%. 
